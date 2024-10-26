@@ -115,4 +115,3 @@ int isShipSunk(Ship *ship) {
     }
     return 1; // All parts are hit
 }
-

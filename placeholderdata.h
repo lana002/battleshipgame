@@ -27,5 +27,3 @@ int gamedifficulty=0;                      //zero for easy, one for hard
 char affectedArea[GRID_SIZE][GRID_SIZE];   // temporary grid for affected cells per each move.clears after every turn.
 char MoveTypes[]={'F','R','S','A','T'};    //codename for fire,radar sweep,smoke screen, artillery,torpedo.
                                            //for now, not explicitly used anywhere, just referenced in function markAffectedArea
-
- 
